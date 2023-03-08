@@ -11,7 +11,7 @@
     --bg-color: #2a2a2a;
     --second-bg-color: #202020;
     --text-color: #fff;
-    --second-color: #fef9e5;
+    --second-color: #ffffff;
     --main-color: #d68ff0;
     --big-font: 5.0rem;
     --h2-font: 3.5rem ;
@@ -51,6 +51,8 @@ header{
 .logo img{
     width: 75px;
     height: 75px;
+    margin-top: -10px;
+    
 }
 
 span{
