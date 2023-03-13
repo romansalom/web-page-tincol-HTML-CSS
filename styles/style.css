@@ -45,7 +45,7 @@ header{
     font-size: 37px;
     font-weight: 700;
     letter-spacing: 1px;
-    background-color: #00000011;
+    background-color: #00000000;
 }
 
 
@@ -70,7 +70,7 @@ span{
     font-weight: 700;
     margin: 0 25px;
     transition: all .45s ease;
-    background-color: #00000011;
+    background-color: #00000000;
 }
 .navlist a:hover{
    transform: scale(1.1) translateY(5px);
@@ -96,7 +96,7 @@ section{
     position: relative;
     height: 100vh;
     width: 100%;
-    background-image: url(../img/prueba7.png);
+    background-image: url(../img/68.jpg);
     background-size:cover;
     background-position: center center;
     display: flex;
@@ -133,7 +133,7 @@ section{
    line-height: 1.8;
    font-weight: 500;
    margin-bottom: 40px;
-   background-color: #0000000e;
+   background-color: #00000000;
 }
 
 
@@ -216,7 +216,23 @@ line-height: 1;
     cursor: pointer;
 }
 
-
+@media(min-width: 480px){
+    .contenedor{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap:  10px;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-body{
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
 
 @media(min-width: 480px){
     .contenedor{
