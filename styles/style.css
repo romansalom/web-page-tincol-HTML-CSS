@@ -42,9 +42,10 @@ header{
 
 .logo{
     color: var(--text-color);
-    font-size: 35px;
+    font-size: 37px;
     font-weight: 700;
     letter-spacing: 1px;
+    background-color: #00000011;
 }
 
 
@@ -65,10 +66,11 @@ span{
 }
 .navlist a{
     color: var(--second-color);
-    font-size: 17px;
-    font-weight: 500;
+    font-size: 18.5px;
+    font-weight: 700;
     margin: 0 25px;
     transition: all .45s ease;
+    background-color: #00000011;
 }
 .navlist a:hover{
    transform: scale(1.1) translateY(5px);
@@ -94,13 +96,16 @@ section{
     position: relative;
     height: 100vh;
     width: 100%;
-    background-image: url(../img/imagen10.jpg);
-    background-size: cover;
-    background-position: center;
+    background-image: url(../img/prueba7.png);
+    background-size:cover;
+    background-position: center center;
     display: flex;
     align-items: center;
-    justify-content:flex-start ;
+    image-rendering: optimizeQuality;
+    object-fit: cover;
+    
 }   
+
 
 .slide{
     margin-bottom: 20px;
@@ -111,7 +116,7 @@ section{
 
 .home-text h1{
     display: inline-block;
-    font-size: 50px;
+    font-size: 70px;
     font-weight: 700;
     color:white;
     list-style: 1.1;
@@ -126,7 +131,9 @@ section{
     color: rgba(255, 255, 255, 0.989);
    font-size:1.6rem;
    line-height: 1.8;
+   font-weight: 500;
    margin-bottom: 40px;
+   background-color: #0000000e;
 }
 
 
@@ -180,12 +187,13 @@ line-height: 1;
     object-fit: cover;
 }
 .card-title{
-    text-align: center;
+    text-align:center;
     margin: 0;
 }
 .card-description{
     flex-grow: 1;
     font-size: 1rem;
+    margin: 10px;
 }
 
 
@@ -208,22 +216,7 @@ line-height: 1;
     cursor: pointer;
 }
 
-@media(min-width: 480px){
-    .contenedor{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap:  10px;
-    }
-    .card{
-        display: flex;
-        flex-direction: column;
-    }
-    .card-body{
-        flex-grow: 1;
-        display: flex;
-        flex-direction: column;
-    }
-}
+
 
 @media(min-width: 480px){
     .contenedor{
@@ -435,7 +428,7 @@ contact-form .sumbit:hover{
 
 @media (max-width: 110px){
 :root{
-    --big-font: 4.0rem;
+    --big-font: 3.5rem;
     --h2-font: 3.0rem ;
     --p-font:1.1rem;
 
@@ -447,6 +440,7 @@ contact-form .sumbit:hover{
 }
 .home{
     height: 87vh;
+    
 }
 }
 
