@@ -193,7 +193,8 @@ line-height: 1;
 .card-description{
     flex-grow: 1;
     font-size: 1rem;
-    margin: 3px;
+    margin: 10px;
+    
 }
 
 
