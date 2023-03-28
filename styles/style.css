@@ -172,7 +172,7 @@ line-height: 1;
 }
 
 .productos{
-    background: var(--second-bg-color);
+    background: black;
 }
 
 .main-text{
@@ -236,22 +236,7 @@ line-height: 1;
     
 }
 
-@media(min-width: 480px){
-    .contenedor{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap:  10px;
-    }
-    .card{
-        display: flex;
-        flex-direction: column;
-    }
-    .card-body{
-        flex-grow: 1;
-        display: flex;
-        flex-direction: column;
-    }
-}
+
 .main-text p{
     color: var(--second-color);
     font-size: 15px;
@@ -274,7 +259,7 @@ line-height: 1;
 
 .galeria-contet{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px,auto));
+    grid-template-columns: repeat(auto-fit, minmax(297px,auto));
     align-items: center;
     gap: 2.5rem;
     margin-top: 5rem;
@@ -479,6 +464,7 @@ contact-form .sumbit:hover{
 .contacto{
     grid-template-columns: 1fr;
 }
+
 }
 
 @media (max-width: 840px){
@@ -514,5 +500,19 @@ contact-form .sumbit:hover{
     }
     .navlist.open{
         top: 100%;
+    }
+    .contenedor{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap:  10px;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-body{
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
     }
 }
